@@ -202,7 +202,7 @@ def word_eval():
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--ngram', required=False, type=int, default=1, help='ngram number')
+    parser.add_argument('--ngram', required=False, type=int, default=4, help='ngram number')
     parser.add_argument('--name', required=False, type=str, default='temp_model', help='project name')
     parser.add_argument('--bar', required=False, type=int, default=0, help='show bar')
     parser.add_argument('--dropout', required=False, type=float, default=0.5, help='dropout rate')
