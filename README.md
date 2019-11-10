@@ -6,7 +6,9 @@ A list of parameters required to run the code can be obtained in the following w
 `python3 train.py -h`
 
 An example: 
-`python3 train.py --dataset r8`
+`python3 train.py --dataset r8 --ngram 3`
+`python3 train.py --dataset r52 --ngram 3`
+`python3 train.py --dataset oh --ngram 4`
 
 Note: You need to put a pre-trained Glove model file named `glove.6B.200d.vec.txt` in the root directory.
 You get the file from https://nlp.stanford.edu/projects/glove/.
