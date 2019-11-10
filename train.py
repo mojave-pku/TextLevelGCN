@@ -208,7 +208,7 @@ if __name__ == '__main__':
     parser.add_argument('--dropout', required=False, type=float, default=0.5, help='dropout rate')
     parser.add_argument('--dataset', required=True, type=str, help='dataset')
     parser.add_argument('--edges', required=False, type=int, default=1, help='trainable edges')
-    parser.add_argument('--rand', required=False, type=int, default=2, help='rand_seed')
+    parser.add_argument('--rand', required=False, type=int, default=7, help='rand_seed')
 
     args = parser.parse_args()
 
